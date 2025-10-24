@@ -1,12 +1,13 @@
-import React from "react";
+import React, { use } from "react";
 import Hero from "../Components/Hero";
 import AllCards from "../Components/AllCards";
 import usePlants from "../Hooks/usePlants";
 import Tips from "../Components/Tips";
+import Specialist from "../Components/Specialist";
+import { AuthContext } from "../Provider/AuthProvider";
 
 const Home = () => {
-  //
-  const { cards } = usePlants();
+  const { cards, loading } = usePlants();
   // console.log(cards);
 
   return (
@@ -24,7 +25,8 @@ const Home = () => {
         </div>
         <Hero></Hero>
       </div>
-      <div className="grid grid-cols-3 gap-3">
+      {loading && <span className="loading loading-dots loading-xl"></span>}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
         {cards.map((plant) => (
           <AllCards plant={plant}></AllCards>
         ))}
@@ -32,6 +34,18 @@ const Home = () => {
       <section>
         <Tips></Tips>
       </section>
+      <div>
+        <h1 className="bg-gray-400 py-10 font-bold text-7xl text-indigo-800">
+          Meet Our Green Experts
+        </h1>
+        <p className="text-gray-800 text-xl">
+          Our passionate plant care experts are here to help your greens thrive.
+          From indoor plants to tropical beauties, they bring years of
+          experience and love for nature — guiding you toward a healthier,
+          greener lifestyle
+        </p>
+        <Specialist></Specialist>
+      </div>
     </>
   );
 };

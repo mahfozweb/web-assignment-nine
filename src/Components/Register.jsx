@@ -2,6 +2,7 @@ import React, { use, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router";
 import { AuthContext } from "../Provider/AuthProvider";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { toast } from "react-toastify";
 
 const Register = () => {
   const [error, setError] = useState("");
@@ -24,10 +25,15 @@ const Register = () => {
     setError("");
     createUser(email, password)
       .then(() => {
+        toast.success("registration Successful");
         updateData({ displayName: name, photoURL: photo });
         navigate(location.state || "/");
+        setUser({ ...user, displayName: name, photoURL: photo });
       })
       .catch((error) => {
+        console.log(error.message);
+
+        toast.error(error.message);
         setError(error.message);
       });
   };

@@ -9,7 +9,10 @@ const usePlants = () => {
     setLoading(true);
     axios
       .get("/plants.json")
-      .then((data) => setCards(data.data))
+      .then((data) => {
+        setCards(data.data);
+        setLoading(false);
+      })
       .catch((err) => setError(err))
       .finally(() => setLoading(false));
   }, []);

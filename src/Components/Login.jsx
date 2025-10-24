@@ -1,8 +1,9 @@
 import React, { use, useState } from "react";
-import { Link, useLocation, useNavigate } from "react-router";
+import { Link, NavLink, useLocation, useNavigate } from "react-router";
 import { AuthContext } from "../Provider/AuthProvider";
 import { MdShower } from "react-icons/md";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { toast } from "react-toastify";
 
 const Login = () => {
   const { user } = use(AuthContext);
@@ -18,13 +19,16 @@ const Login = () => {
     const password = event.target.password.value;
     signInUser(email, password)
       .then((result) => {
+        toast.success("Signin Successful");
         event.target.reset();
+
         // console.log(location);
 
         navigate(location.state || "/");
       })
       .catch((error) => {
         setError(error.message);
+        toast.error(error.message);
       });
   };
   const handleWithGoogle = () => {
@@ -37,7 +41,7 @@ const Login = () => {
 
   return (
     <>
-      {loading && <h1>Loading...........</h1>}
+      {loading && <span className="loading loading-dots loading-xl"></span>}
       <div className="card bg-base-100 mx-auto mt-5 w-full max-w-sm shrink-0 shadow-2xl">
         <div className="text-center lg:text-left">
           <h1 className="text-5xl font-bold">Login now!</h1>
@@ -68,7 +72,7 @@ const Login = () => {
                 </button>
               </div>
               <div>
-                <a className="link link-hover">Forgot password?</a>
+                <NavLink to="/forget">Forgot password?</NavLink>
               </div>
               <button className="btn btn-neutral mt-4">Login</button>
             </fieldset>

@@ -54,7 +54,7 @@ const Header = () => {
           <img className="h-50px] w-[100px]" src={logoImage} alt="" />
         </div>
       </div>
-      <div className="navbar-center hidden  lg:flex">
+      <div className="navbar-center hidden gap-20 lg:flex">
         <ul className="menu menu-horizontal px-1  ">
           <li>
             <NavLink to="/">Home</NavLink>

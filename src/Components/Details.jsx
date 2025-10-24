@@ -22,7 +22,7 @@ const Details = ({ plant }) => {
   } = plant;
   return (
     <>
-      <div className="flex justify-center bg-green-100 items-center p-10">
+      <div className="flex justify-center bg-green-100 items-center mt-10 md:mt-0 p-10">
         <div className="card  bg-base-100 w-[700px] shadow-sm">
           <h1 className=" pb-5">
             <span className="font-semibold ">Provider: </span>

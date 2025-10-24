@@ -1,17 +1,26 @@
 import React, { use } from "react";
 import { AuthContext } from "../Provider/AuthProvider";
+import { toast } from "react-toastify";
 
 const Profile = () => {
-  const { updateData, user } = use(AuthContext);
+  const { updateData, user, setUser } = use(AuthContext);
 
   const handleUpdate = (event) => {
     event.preventDefault();
     const name = event.target.name.value;
     const photo = event.target.photoURL.value;
-    updateData({ displayName: name, photoURL: photo }).then(() => {
-      alert("successfully update");
-    });
-    console.log(name, photo);
+    updateData({ displayName: name, photoURL: photo })
+      .then(() => {
+        // alert("successfully update");
+
+        setUser({ ...user, displayName: name, photoURL: photo });
+        toast.success("successfully update");
+        event.target.reset();
+      })
+      .catch((e) => {
+        toast.error(e.message);
+      });
+    // console.log(name, photo);
   };
   return (
     <>
@@ -39,7 +48,7 @@ const Profile = () => {
             </div>
           </div>
         </div>
-        <div className="hero bg-green-200 min-h-screen -mt-[80px] ">
+        <div className="hero bg-green-200 min-h-screen md:-mt-[80px] ">
           <div className="hero-content flex-col lg:flex-row-reverse ">
             <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl ">
               <div className="card-body ">
