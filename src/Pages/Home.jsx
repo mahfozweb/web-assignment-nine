@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../Components/Hero";
 import AllCards from "../Components/AllCards";
 import usePlants from "../Hooks/usePlants";
+import Tips from "../Components/Tips";
 
 const Home = () => {
   //
@@ -28,6 +29,9 @@ const Home = () => {
           <AllCards plant={plant}></AllCards>
         ))}
       </div>
+      <section>
+        <Tips></Tips>
+      </section>
     </>
   );
 };
