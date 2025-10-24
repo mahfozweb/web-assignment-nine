@@ -20,7 +20,7 @@ const AllCards = ({ plant }) => {
         </div>
 
         <NavLink
-          to={`/plant-details/${plantId}`}
+          to={`plant-details/${plantId}`}
           className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl"
         >
           <button> View Details</button>

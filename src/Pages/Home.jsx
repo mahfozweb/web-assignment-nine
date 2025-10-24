@@ -2,12 +2,11 @@ import React from "react";
 import Hero from "../Components/Hero";
 import AllCards from "../Components/AllCards";
 import usePlants from "../Hooks/usePlants";
-import { useLoaderData } from "react-router";
 
 const Home = () => {
-  //   const data = useLoaderData();
+  //
   const { cards } = usePlants();
-  console.log(cards);
+  // console.log(cards);
 
   return (
     <>

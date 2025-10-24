@@ -37,7 +37,7 @@ const Header = () => {
             </li>
             <li>
               {" "}
-              <NavLink to="/plants">Plants</NavLink>
+              <NavLink to="/tree">Plants</NavLink>
             </li>
             {user && (
               <>
@@ -61,7 +61,7 @@ const Header = () => {
           </li>
           <li>
             {" "}
-            <NavLink to="/plants">Plants</NavLink>
+            <NavLink to="/tree">Plants</NavLink>
           </li>
           {user && (
             <>

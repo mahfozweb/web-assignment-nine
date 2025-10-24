@@ -1,9 +1,11 @@
 import React, { use, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router";
 import { AuthContext } from "../Provider/AuthProvider";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 const Register = () => {
   const [error, setError] = useState("");
+  const [show, setShow] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
   const { createUser, signInWithGoogle, setUser, user, updateData } =
@@ -15,9 +17,9 @@ const Register = () => {
     const email = event.target.email.value;
     const password = event.target.password.value;
     const passwordRegex = /^(?=.*[A-Z])(?=.*[a-z]).{6,}$/;
-    if(!passwordRegex.test(password)){
-        setError("please Provide Correct Password")
-        return
+    if (!passwordRegex.test(password)) {
+      setError("please Provide Correct Password");
+      return;
     }
     setError("");
     createUser(email, password)
@@ -37,6 +39,9 @@ const Register = () => {
       .catch((error) => {
         setError(error.message);
       });
+  };
+  const handleToggle = () => {
+    setShow(!show);
   };
   return (
     <div className="card bg-base-100 mx-auto mt-5 w-full max-w-sm shrink-0 shadow-2xl">
@@ -68,12 +73,20 @@ const Register = () => {
               placeholder="Email"
             />
             <label className="label">Password</label>
-            <input
-              type="password"
-              name="password"
-              className="input"
-              placeholder="Password"
-            />
+            <div className="relative">
+              <input
+                type={show ? "text" : "password"}
+                name="password"
+                className="input"
+                placeholder="Password"
+              />
+              <button
+                onClick={() => handleToggle()}
+                className="absolute top-3 right-3 cursor-pointer"
+              >
+                {show ? <FaEye size={20} /> : <FaEyeSlash size={20} />}
+              </button>
+            </div>
             <div>
               <a className="link link-hover">Forgot password?</a>
             </div>
