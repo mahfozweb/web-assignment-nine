@@ -19,9 +19,12 @@ const Extra = () => {
           temperate zones. Their beauty derives from the unique heart shape of
           their charming blooms.
         </p>
+        <marquee className="bg-green-100 text-green-800 font-semibold py-2">
+          🌿 Welcome to GreenLeaf Store — Plant of the Week: Peace Lily 🌸
+        </marquee>
       </div>
-      <div className="first-card md:flex p-5 gap-5">
-        <div className="left  max-w-[50%] h-full">
+      <div className="first-card md:flex p-1  md:p-5 gap-5">
+        <div className="left pb-2 md:pb-0  md:max-w-[50%] h-full">
           <img
             className=" h-full rounded-[10px]"
             src="https://images.contentstack.io/v3/assets/bltcedd8dbd5891265b/blt4a4af7e6facea579/6668df6ceca9a600983250ac/beautiful-flowers-hero.jpg?q=70&width=828&auto=webp"
@@ -44,7 +47,7 @@ const Extra = () => {
             </div>
           </div>
           <div>
-            <button className="text-white bg-red-500 font bold text-4xl btn mt-30 py-6">
+            <button className="text-white bg-red-500 font bold text-4xl btn mt-10 md:mt-30 py-6 mb-5 md:mb-0">
               Buy Now
             </button>
           </div>
