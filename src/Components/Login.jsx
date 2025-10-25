@@ -43,7 +43,7 @@ const Login = () => {
     <>
       {loading && <span className="loading loading-dots loading-xl"></span>}
       <div className="card bg-base-100 mx-auto mt-5 w-full max-w-sm shrink-0 shadow-2xl">
-        <div className="text-center lg:text-left">
+        <div className="text-center ">
           <h1 className="text-5xl font-bold">Login now!</h1>
         </div>
         <div className="card-body">
@@ -66,7 +66,7 @@ const Login = () => {
                 />
                 <button
                   onClick={() => setShow(!show)}
-                  className="absolute top-3 right-3 cursor-pointer"
+                  className="absolute top-3 right-5 md:right-5 cursor-pointer"
                 >
                   {show ? <FaEye size={20} /> : <FaEyeSlash size={20} />}
                 </button>

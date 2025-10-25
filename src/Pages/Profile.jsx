@@ -25,9 +25,11 @@ const Profile = () => {
   return (
     <>
       <div className="bg-green-200">
-        <div>
-          <h1 className="text-3xl text-blue-800 font-bold">My Profile</h1>
-          <div>
+        <div className="">
+          <div className="flex  items-center justify-center">
+            <h1 className="text-3xl text-blue-800 font-bold">My Profile</h1>
+          </div>
+          <div className="flex flex-col items-center justify-center">
             <h1>
               <span className="text-xl font-bold">Name :</span>{" "}
               <span className="white font-semibold">

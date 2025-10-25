@@ -24,13 +24,13 @@ const Details = ({ plant }) => {
     <>
       <div className="flex justify-center bg-[#4B4B4B] items-center mt-10 md:mt-0 p-10">
         <div className="card  bg-base-100 w-[700px] shadow-sm">
-          <h1 className=" pb-5">
+          <h1 className=" pb-5 flex justify-center items-center">
             <span className="font-semibold ">Provider: </span>
             {providerName}
           </h1>
           <figure>
             <img
-              className="w-[90%] h-[400px] object-fill"
+              className="w-[90%] md:h-[400px] object-fill"
               src={image}
               alt="Shoes"
             />

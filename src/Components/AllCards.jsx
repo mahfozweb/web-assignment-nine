@@ -10,7 +10,7 @@ const AllCards = ({ plant }) => {
     <div>
       <div className="card bg-base-100  shadow-sm">
         <figure>
-          <img src={plant.image} alt="Shoes" />
+          <img className="p-5" src={plant.image} alt="Shoes" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">{plantName}</h2>

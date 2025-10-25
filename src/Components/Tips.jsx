@@ -3,7 +3,7 @@ import React from "react";
 const Tips = () => {
   return (
     <>
-      <div className="main bg-[#E3F2FD] pt-10">
+      <div className="main bg-[#E3F2FD] pt-10 p-5 md:p-10">
         <div className="pb-20">
           <h1 className="font-bold text-5xl text-fuchsia-600">
             Plant Care Tips{" "}
