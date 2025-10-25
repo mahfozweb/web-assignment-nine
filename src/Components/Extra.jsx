@@ -20,7 +20,10 @@ const Extra = () => {
           their charming blooms.
         </p>
         <marquee className="bg-green-100 text-green-800 font-semibold py-2">
-          🌿 Welcome to GreenLeaf Store — Plant of the Week: Peace Lily 🌸
+          <p>
+            🌿 Welcome to GreenLeaf Store — Plant of the Week: Peace Lily 🌸🌿
+            Plant of the Week: Discover Nature’s Star!
+          </p>
         </marquee>
       </div>
       <div className="first-card md:flex p-1  md:p-5 gap-5">

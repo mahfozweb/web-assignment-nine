@@ -4,3 +4,14 @@
 a.active {
   background-color: cornsilk;
 }
+
+.animate-marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused; /* <-- pause on hover */
+  cursor: pointer; /* optional */
+}

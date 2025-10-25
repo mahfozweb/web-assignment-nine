@@ -17,10 +17,10 @@ const Home = () => {
           <h1 className="text-5xl font-bold text-indigo-800">
             Nurture Nature, Live Fresh
           </h1>
-          <div className="pt-10">
-            <marquee className="bg-green-100 text-green-800 font-semibold py-2">
-              🌿 Welcome to GreenLeaf Store — Plant of the Week: Peace Lily 🌸..
-              🌿 Discover a world of vibrant greenery and gentle care. Our
+          <div className="pt-10 overflow-hidden">
+            <marquee className="bg-green-100 text-green-800 font-semibold py-2 animate-marquee ">
+              🌿 Welcome to Green Nest Store — Plant of the Week: Peace Lily
+              🌸.. 🌿 Discover a world of vibrant greenery and gentle care. Our
               plants🌸 .. 🌿bring peace, freshness, and beauty to every space —
               making your home🌸.. 🌿a living paradise. Slide through nature’s
               charm with every motion.🌸
