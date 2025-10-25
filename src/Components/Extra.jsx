@@ -2,6 +2,15 @@ import React from "react";
 import { BiDollar } from "react-icons/bi";
 
 const Extra = () => {
+  let marqueeRef = null;
+
+  const handleMouseOver = () => {
+    marqueeRef.stop();
+  };
+
+  const handleMouseOut = () => {
+    marqueeRef.start();
+  };
   return (
     <div className=" bg-[#1C1C1C] mt-10 px-5 md:px-10">
       <div className="py-20 ">
@@ -19,7 +28,15 @@ const Extra = () => {
           temperate zones. Their beauty derives from the unique heart shape of
           their charming blooms.
         </p>
-        <marquee className="bg-green-100 text-green-800 font-semibold py-2">
+        <marquee
+          behavior="scroll"
+          direction="left"
+          ref={(el) => (marqueeRef = el)}
+          onMouseOver={handleMouseOver}
+          onMouseOut={handleMouseOut}
+          loop="true"
+          className="bg-green-100 text-green-800 font-semibold py-2"
+        >
           <p>
             🌿 Welcome to GreenLeaf Store — Plant of the Week: Peace Lily 🌸🌿
             Plant of the Week: Discover Nature’s Star!

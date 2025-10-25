@@ -10,6 +10,15 @@ const Home = () => {
   const { cards, loading } = usePlants();
   // console.log(cards);
 
+  let marqueeRef = null;
+
+  const handleMouseOver = () => {
+    marqueeRef.stop();
+  };
+
+  const handleMouseOut = () => {
+    marqueeRef.start();
+  };
   return (
     <>
       <div className="bg-gray-400 p-10">
@@ -18,7 +27,15 @@ const Home = () => {
             Nurture Nature, Live Fresh
           </h1>
           <div className="pt-10 overflow-hidden">
-            <marquee className="bg-green-100 text-green-800 font-semibold py-2 animate-marquee ">
+            <marquee
+              behavior="scroll"
+              direction="left"
+              ref={(el) => (marqueeRef = el)}
+              onMouseOver={handleMouseOver}
+              onMouseOut={handleMouseOut}
+              loop="true"
+              className="bg-green-100 text-green-800 font-semibold py-2 animate-marquee "
+            >
               🌿 Welcome to Green Nest Store — Plant of the Week: Peace Lily
               🌸.. 🌿 Discover a world of vibrant greenery and gentle care. Our
               plants🌸 .. 🌿bring peace, freshness, and beauty to every space —
