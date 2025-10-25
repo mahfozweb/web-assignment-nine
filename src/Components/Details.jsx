@@ -22,7 +22,7 @@ const Details = ({ plant }) => {
   } = plant;
   return (
     <>
-      <div className="flex justify-center bg-green-100 items-center mt-10 md:mt-0 p-10">
+      <div className="flex justify-center bg-[#4B4B4B] items-center mt-10 md:mt-0 p-10">
         <div className="card  bg-base-100 w-[700px] shadow-sm">
           <h1 className=" pb-5">
             <span className="font-semibold ">Provider: </span>
@@ -60,7 +60,7 @@ const Details = ({ plant }) => {
         </div>
       </div>
       {/* form */}
-      <div className=" bg-green-100 ">
+      <div className=" bg-[#4B4B4B] ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
             <div className="card-body ">

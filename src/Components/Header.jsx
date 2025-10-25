@@ -51,11 +51,15 @@ const Header = () => {
         </div>
         <div>
           {" "}
-          <img className="h-50px] w-[100px]" src={logoImage} alt="" />
+          <img
+            className="h-50px] w-[100px] rounded-[10px]"
+            src={logoImage}
+            alt=""
+          />
         </div>
       </div>
-      <div className="navbar-center hidden gap-20 lg:flex">
-        <ul className="menu menu-horizontal px-1  ">
+      <div className="navbar-center hidden gap-20  lg:flex">
+        <ul className="menu menu-horizontal px-1 font-bold  ">
           <li>
             <NavLink to="/">Home</NavLink>
           </li>
@@ -96,14 +100,14 @@ const Header = () => {
             )}
 
             {dropdownOpen && (
-              <div className="absolute right-0 mt-2 bg-white border shadow-lg rounded-md w-40">
-                <p className="p-2 text-center text-gray-700">
+              <div className="absolute right-0 mt-2 bg-white border shadow-lg rounded-md w-40 ">
+                <p className="p-2 text-center bg-blue-300 text-white font-bold cursor-pointer hover:bg-gray-500">
                   {user.displayName || "mahfoz"}
                 </p>
                 <hr />
                 <button
                   onClick={signOutUser}
-                  className="block w-full text-left px-4 py-2 hover:bg-green-50"
+                  className="bg-black block w-full text-left px-4 py-2 hover:bg-red-400 font-bold text-white text-xl cursor-pointer"
                 >
                   Logout
                 </button>

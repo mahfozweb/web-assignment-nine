@@ -2,10 +2,8 @@ import React from "react";
 import { BsCurrencyDollar } from "react-icons/bs";
 import { NavLink } from "react-router";
 
-const AllCards = ({ plant }) => {
+const PlantList = ({ plant }) => {
   const { plantName, rating, price, description, plantId } = plant;
-  console.log(plant.price);
-
   return (
     <div>
       <div className="card bg-base-100  shadow-sm">
@@ -20,7 +18,7 @@ const AllCards = ({ plant }) => {
               <span>
                 <BsCurrencyDollar />
               </span>
-              {plant.price}
+              {price}
             </div>
             <div className="badge badge-outline">⭐⭐⭐{rating}</div>
           </div>
@@ -37,4 +35,4 @@ const AllCards = ({ plant }) => {
   );
 };
 
-export default AllCards;
+export default PlantList;

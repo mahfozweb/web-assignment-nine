@@ -59,8 +59,8 @@ const Specialist = () => {
 
               {/* Overlay with slogan */}
               <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-center py-6 rounded-b-xl">
-                <h2 className="text-2xl font-semibold">{slide.name}</h2>
-                <p className="text-sm mt-2 opacity-90">
+                <h2 className="text-7xl font-semibold">{slide.name}</h2>
+                <p className=" text-3xl mt-2 opacity-90">
                   {slide.specialization}
                 </p>
               </div>

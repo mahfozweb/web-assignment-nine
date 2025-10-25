@@ -26,7 +26,7 @@ const Profile = () => {
     <>
       <div className="bg-green-200">
         <div>
-          <h1 className="text-3xl text-blue-800 font-bold">Your Profile</h1>
+          <h1 className="text-3xl text-blue-800 font-bold">My Profile</h1>
           <div>
             <h1>
               <span className="text-xl font-bold">Name :</span>{" "}

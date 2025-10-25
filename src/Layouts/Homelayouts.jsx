@@ -6,7 +6,7 @@ import { ToastContainer } from "react-toastify";
 
 const Homelayouts = () => {
   return (
-    <div>
+    <div className="md:max-w-[1100px] mx-auto px-10">
       <header>
         <Header></Header>
       </header>
