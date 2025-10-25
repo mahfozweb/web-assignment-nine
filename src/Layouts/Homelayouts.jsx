@@ -3,6 +3,7 @@ import Header from "../Components/Header";
 import { Outlet } from "react-router";
 import Footer from "../Components/Footer";
 import { ToastContainer } from "react-toastify";
+import Extra from "../Components/Extra";
 
 const Homelayouts = () => {
   return (
@@ -13,9 +14,13 @@ const Homelayouts = () => {
       <main className="min-h-screen bg-base-500">
         <Outlet></Outlet>
       </main>
+      <section>
+        <Extra></Extra>
+      </section>
       <footer>
         <Footer></Footer>
       </footer>
+
       <ToastContainer></ToastContainer>
     </div>
   );

@@ -26,7 +26,7 @@ const Home = () => {
         <Hero></Hero>
       </div>
       {loading && <span className="loading loading-dots loading-xl"></span>}
-      <div className="bg-cyan-100 p-10 grid grid-cols-1 md:grid-cols-3 gap-3 pt-10">
+      <div className="bg-black p-10 grid grid-cols-1 md:grid-cols-3 gap-3 pt-10">
         {cards.map((plant) => (
           <AllCards plant={plant}></AllCards>
         ))}
