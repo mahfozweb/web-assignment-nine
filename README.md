@@ -38,7 +38,7 @@ This project is a Nature Plant Booking Web Application designed to provide users
 
 <div align="center">
   <img src="https://i.ibb.co.com/tMLcB5sB/1.jpg" width="200" alt="Snake Plant"/>
-  <img src="https://i.ibb.co.com/rRvwnJMy/2.jpg" width="200" alt="Aloe Vera"/>
+  <img src="https://i.ibb.co.com/rTsMykr/Screenshot-124.png"/>
   
 </div>
 
