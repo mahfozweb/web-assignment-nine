@@ -34,56 +34,54 @@ This project is a Nature Plant Booking Web Application designed to provide users
 
 ---
 
+### 🔐 Authentication
+
+<div align="left">
+
+| Technology               | Icon                                                                                         |
+| ------------------------ | -------------------------------------------------------------------------------------------- |
+| **Firebase Auth**        | <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" width="40"/>         |
+| **JWT (JSON Web Token)** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jwt/jwt-plain.svg" width="40"/> |
+
+</div>
+
+---
+
+### 🚀 Deployment
+
+<div align="left">
+
+| Platform    | Icon                                                                               | Link                                                                                |
+| ----------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| **Netlify** | <img src="https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg" width="40"/> | [Live Site](https://assignment-krishi-client.netlify.app/)                          |
+| **Vercel**  | <img src="https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg" width="40"/>   | [Backend API](https://vercel.com/mahfozul-hoques-projects/assignment-krishi-server) |
+
+</div>
+# 📦 Dependencies
+
+### 🖥️ Frontend (Client)
+
+- **React.js** – Frontend library for building UI
+- **React Router DOM** – Client-side routing
+- **Tailwind CSS** – Utility-first CSS framework for styling
+- **DaisyUI** – Component library for Tailwind
+- **Firebase** – Authentication & cloud services
+- **React Hot Toast** – Notifications
+- **Axios / Fetch API** – For HTTP requests
+
 **Screenshots:**
 
 <div align="center">
-  <img src="https://i.ibb.co.com/tMLcB5sB/1.jpg" width="200" alt="Snake Plant"/>
+  
   <img src="https://i.ibb.co.com/rTsMykr/Screenshot-124.png"/>
   
 </div>
 
 ---
 
-## 🛠️ Technology Stack
+# 🚀 Installation / Local Setup
 
-### Languages
-
-<div>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" alt="HTML5"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" alt="CSS3"/>
-</div>
-
-### CSS Frameworks & Libraries
-
-<div>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="40" height="40" alt="Tailwind CSS"/>
-  <img src="https://raw.githubusercontent.com/mahfoz81000/assets/main/daisyui.png" width="40" height="40" alt="Daisy UI"/>
-</div>
-
-### JavaScript Frameworks & Libraries
-
-<div>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40" alt="React"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40" alt="Node.js"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40" height="40" alt="Express"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="40" height="40" alt="Firebase"/>
-</div>
-
-### Database & Hosting
-
-<div>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40" alt="MongoDB"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg" width="40" height="40" alt="Netlify"/>
-</div>
-
-### Tools & Technologies
-
-<div>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width="40" height="40" alt="VS Code"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="40" height="40" alt="Postman"/>
-</div>
+Follow the steps below to run **KrishiLink** locally.
 
 ---
 
