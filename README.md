@@ -1,4 +1,4 @@
-# 🌿 Nature Plant Booking Web Application
+# Nature Plant Booking Web Application
 
 ---
 
@@ -24,10 +24,7 @@ This project is a Nature Plant Booking Web Application designed to provide users
 <div align="center">
   <img src="https://i.ibb.co.com/tMLcB5sB/1.jpg" width="200" alt="Snake Plant"/>
   <img src="https://i.ibb.co.com/rRvwnJMy/2.jpg" width="200" alt="Aloe Vera"/>
-  <img src="https://i.ibb.co.com/gFtmNLwM/3.jpg" width="200" alt="Peace Lily"/>
-  <img src="https://i.ibb.co.com/RG0D1g08/4.jpg" width="200" alt="Fiddle Leaf Fig"/>
-  <img src="https://i.ibb.co.com/XxgVdWgW/5.jpg" width="200" alt="Monstera Deliciosa"/>
-  <img src="https://i.ibb.co.com/RGbX8dTp/6.jpg" width="200" alt="Spider Plant"/>
+  
 </div>
 
 ---
