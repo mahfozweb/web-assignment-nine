@@ -19,6 +19,21 @@ This project is a Nature Plant Booking Web Application designed to provide users
 - **Booking System:** Easily book plants and track booking history.
 - **Plant Tips & Guides:** Learn essential care tips for different plants.
 
+### 🎨 Frontend
+
+<div align="left">
+
+| Technology       | Icon                                                                                                |
+| ---------------- | --------------------------------------------------------------------------------------------------- |
+| **HTML5**        | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40"/> |
+| **CSS3**         | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40"/>   |
+| **Tailwind CSS** | <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="40"/>          |
+| **React.js**     | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40"/> |
+
+</div>
+
+---
+
 **Screenshots:**
 
 <div align="center">
