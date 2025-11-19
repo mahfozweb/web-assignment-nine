@@ -1,14 +1,23 @@
-# 🌿 GreenPlant - Indoor Plant Store
-
-![GreenPlant Banner](https://i.ibb.co/p6WJjLzv/mahfozgithub-Banner.png)
+# 🌿 Nature Plant Booking Web Application
 
 ---
 
-## 📖 Project Overview
+# 📖 About the Project
 
 GreenPlant is a modern **indoor plant e-commerce platform** built with **React** and **Firebase**.  
 It provides a curated collection of indoor plants with details such as **price, care level, stock availability, and description**.  
 Users can browse plants, view detailed information, register/login, and manage their profiles.
+
+## 📖 Project Overview
+
+This project is a Nature Plant Booking Web Application designed to provide users with an interactive and informative platform for exploring, booking, and learning about plants.
+
+## Features
+
+- **User Registration & Login:** Secure sign-up and login system for personalized experience.
+- **Plant Catalog:** Browse natural plants with images, descriptions, and care details.
+- **Booking System:** Easily book plants and track booking history.
+- **Plant Tips & Guides:** Learn essential care tips for different plants.
 
 **Screenshots:**
 
