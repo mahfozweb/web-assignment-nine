@@ -13,31 +13,66 @@ Users can browse plants, view detailed information, register/login, and manage t
 **Screenshots:**
 
 <div align="center">
-  <img src="https://i.ibb.co.com/tMLcB5sB/1.jpg" width="250" alt="Snake Plant"/>
-  <img src="https://i.ibb.co.com/rRvwnJMy/2.jpg" width="250" alt="Aloe Vera"/>
-  <img src="https://i.ibb.co.com/gFtmNLwM/3.jpg" width="250" alt="Peace Lily"/>
+  <img src="https://i.ibb.co.com/tMLcB5sB/1.jpg" width="200" alt="Snake Plant"/>
+  <img src="https://i.ibb.co.com/rRvwnJMy/2.jpg" width="200" alt="Aloe Vera"/>
+  <img src="https://i.ibb.co.com/gFtmNLwM/3.jpg" width="200" alt="Peace Lily"/>
+  <img src="https://i.ibb.co.com/RG0D1g08/4.jpg" width="200" alt="Fiddle Leaf Fig"/>
+  <img src="https://i.ibb.co.com/XxgVdWgW/5.jpg" width="200" alt="Monstera Deliciosa"/>
+  <img src="https://i.ibb.co.com/RGbX8dTp/6.jpg" width="200" alt="Spider Plant"/>
 </div>
 
 ---
 
-## 🛠️ Technology Used
+## 🛠️ Technology Stack
 
-- **Frontend:** React.js, React Router
-- **Backend / Auth:** Firebase Authentication
-- **Database:** Firebase Firestore
-- **Styling:** Tailwind CSS, Daisy UI
-- **Hosting / Deployment:** Firebase Hosting / Netlify
+### Languages
+
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" alt="HTML5"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" alt="CSS3"/>
+</div>
+
+### CSS Frameworks & Libraries
+
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="40" height="40" alt="Tailwind CSS"/>
+  <img src="https://raw.githubusercontent.com/mahfoz81000/assets/main/daisyui.png" width="40" height="40" alt="Daisy UI"/>
+</div>
+
+### JavaScript Frameworks & Libraries
+
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40" alt="React"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40" alt="Node.js"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40" height="40" alt="Express"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="40" height="40" alt="Firebase"/>
+</div>
+
+### Database & Hosting
+
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40" alt="MongoDB"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg" width="40" height="40" alt="Netlify"/>
+</div>
+
+### Tools & Technologies
+
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width="40" height="40" alt="VS Code"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="40" height="40" alt="Postman"/>
+</div>
 
 ---
 
-## ✨ Main Features
+## ✨ Features
 
 - Browse a variety of indoor plants with categories
 - View detailed information about each plant
 - User authentication (Login/Register/Forget Password)
 - Private routes for profile and plant details
 - Responsive design for all devices
-- Add to cart / favorite (planned for next version)
 
 ---
 
