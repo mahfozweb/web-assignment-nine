@@ -85,16 +85,6 @@ Follow the steps below to run **KrishiLink** locally.
 
 ---
 
-## ✨ Features
-
-- Browse a variety of indoor plants with categories
-- View detailed information about each plant
-- User authentication (Login/Register/Forget Password)
-- Private routes for profile and plant details
-- Responsive design for all devices
-
----
-
 ## 📦 Dependencies
 
 - react
@@ -113,5 +103,54 @@ Follow the steps below to run **KrishiLink** locally.
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/mahfozweb/greenplant.git
+git clone https://github.com/mahfozweb/web-assignment-nine.git
 ```
+
+## 📥 🖥️ FRONTEND SETUP
+
+```bash
+git clone https://github.com/mahfozweb/web-assignment-nine.git
+cd krishilink
+npm install
+# Create Environment File
+# This file will store your backend API URL and Firebase config
+VITE_apiKey=yourApiKey
+VITE_authDomain=yourAuthDomain
+VITE_projectId=yourProjectId
+VITE_storageBucket=yourStorageBucket
+VITE_messagingSenderId=yourMessagingSenderId
+VITE_appId=yourAppId
+
+VITE_SERVER_URL=http://localhost:4000
+# Run Frontend
+npm run dev
+
+```
+
+# 🎉 All Setup Done!
+
+## Your project is now running locally with:
+
+- Frontend: http://localhost:5173
+
+- Backend: http://localhost:4000
+
+---
+
+# 📜 License
+
+This project is **licensed under the MIT License** – one of the most permissive open-source licenses.  
+You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this project, under the following conditions:
+
+- You **must include the original copyright notice** and this permission notice in all copies or substantial portions of the project.
+- The software is provided **“as is”**, without warranty of any kind, express or implied.
+- The authors are **not responsible for any damages or liabilities** arising from the use of this project.
+
+For more details, see the [LICENSE.txt](LICENSE.txt) file included in this repository.
+
+---
+
+## 📫 Contact
+
+- **🌐 Project Live Link:** [KrishiLink Live Site](http://assignment-nine-mahfoz-3201.surge.sh/)
+- **✉️ Email:** [mahfoz81000@gmail.com](mailto:mahfoz81000@gmail.com)
